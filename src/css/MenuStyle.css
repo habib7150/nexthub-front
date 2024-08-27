@@ -1,0 +1,15 @@
+@font-face {
+    font-family:poppinsLight ;
+    src: url(../assets/fonts/Poppins/Poppins-Light.ttf);
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-family: poppinsLight;
+    font-size: larger;
+    font-weight: bolder;
+
+    
+}
