@@ -1,0 +1,43 @@
+/* Style général du Carousel */
+.top-carousel {
+    width: 100%; /* Le carousel prend toute la largeur disponible */
+    max-width: 1200px; /* Limite la largeur maximale du carousel */
+    margin: 0 auto; /* Centre le carousel horizontalement */
+    
+  }
+  
+  /* Styles des items du Carousel */
+  .top-carousel .carousel-item {
+    height: 500px; /* Fixe une hauteur pour les items */
+  
+  }
+  
+  /* Style pour les images du carousel */
+  .top-carousel .carousel-item img {
+    max-height: 100%; /* L'image ne dépasse pas la hauteur du carousel */
+    max-width: 100%; /* L'image ne dépasse pas la largeur du carousel */
+    object-fit: contain; /* Conserve les proportions de l'image */
+    
+  }
+  
+  /* Style des légendes du Carousel */
+  .top-carousel .carousel-caption {
+    position: absolute;
+
+  }
+ 
+  
+  /* Style spécifique pour les images avec des classes */
+  .Nokia-G50 {
+    width: 50%; /* Ajuste la largeur spécifique pour Nokia G50 */
+    
+  }
+  
+  .Iphone15 {
+    width: 50%; /* Ajuste la largeur spécifique pour l'iPhone 15 */
+  }
+  
+  .Marshall {
+    width: 50%; /* Ajuste la largeur spécifique pour Marshall */
+  }
+  
